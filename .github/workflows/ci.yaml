@@ -22,3 +22,5 @@ jobs:
         mkdir -p ~/.ssh
         cp known_hosts ~/.ssh/known_hosts
         ssh -i keyfile ubuntu@ec2-52-66-199-67.ap-south-1.compute.amazonaws.com
+        export PATH=$PATH:/home/ubuntu/.nvm/versions/node/v20.5.0/bin
+        ls
