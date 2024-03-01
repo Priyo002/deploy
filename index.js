@@ -9,7 +9,7 @@ app.use(cors());
 app.use(express.json());
 
 app.get("/",(req,res)=>{
-    res.send("Hello World and it is working2");
+    res.send("Hello World and it is working3");
 })
 
 app.listen(3000, () => console.log('Server running on port 3000'));
